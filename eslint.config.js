@@ -33,6 +33,9 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'semi': ['error', 'always'], // Requerir punto y coma
+      'quotes': ['error', 'single'], // Usar comillas simples
+      'react/prop-types': 'off' // Desactivar validación de prop-types
     },
   },
 ]
